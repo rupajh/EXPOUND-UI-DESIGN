@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rupajh/EXPOUND-UI-DESIGN/static/css/main.b4640286.css",
+    "main.js": "/rupajh/EXPOUND-UI-DESIGN/static/js/main.95d75e92.js",
+    "static/js/787.d4aba7ab.chunk.js": "/rupajh/EXPOUND-UI-DESIGN/static/js/787.d4aba7ab.chunk.js",
+    "static/media/security-image.png": "/rupajh/EXPOUND-UI-DESIGN/static/media/security-image.55f16541004d913327ac.png",
+    "static/media/chemical.jpg": "/rupajh/EXPOUND-UI-DESIGN/static/media/chemical.7276b55843317fa10125.jpg",
+    "static/media/circle-icon.png": "/rupajh/EXPOUND-UI-DESIGN/static/media/circle-icon.48fc5947ec7179898fbb.png",
+    "static/media/cmmi.png": "/rupajh/EXPOUND-UI-DESIGN/static/media/cmmi.8ba388e9799a5bacf3f0.png",
+    "static/media/linkedin.png": "/rupajh/EXPOUND-UI-DESIGN/static/media/linkedin.f9925ac6f44e606931e3.png",
+    "static/media/logo.svg": "/rupajh/EXPOUND-UI-DESIGN/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rupajh/EXPOUND-UI-DESIGN/index.html",
+    "main.b4640286.css.map": "/rupajh/EXPOUND-UI-DESIGN/static/css/main.b4640286.css.map",
+    "main.95d75e92.js.map": "/rupajh/EXPOUND-UI-DESIGN/static/js/main.95d75e92.js.map",
+    "787.d4aba7ab.chunk.js.map": "/rupajh/EXPOUND-UI-DESIGN/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4640286.css",
+    "static/js/main.95d75e92.js"
+  ]
+}
