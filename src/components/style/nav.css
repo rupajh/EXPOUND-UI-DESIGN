@@ -1,0 +1,226 @@
+.nav-bar{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d1caca;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: hsla(0,0%,100%,.95);
+    color: #000;
+    z-index: 2;
+    height: 55px;
+}
+@media only screen and (max-width: 1080px){
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    height: 65px;
+}
+}
+.navbar-logo{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+}
+@media only screen and (max-width: 1080px){
+    .navbar-menu.nav-menu-block {
+        display: block;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1080px){
+    .navbar-menu {
+        display: none;
+        background-color: #fff;
+        padding: 0;
+        text-align: center;
+        overflow-y: scroll;
+        flex-direction: column;
+        margin-top: 0;
+        height: 93%;
+        width: 100%;
+        list-style: none;
+        border-top: 1px solid #d1caca;
+    }
+}
+
+.nav-menu-li{
+    list-style: none;
+}
+@media only screen and (max-width: 1080px){
+    .nav-menu-li {
+        margin: 0;
+        display: none;
+    }
+}
+
+.nav-li-item{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px){
+    .nav-li-item{
+        margin: 0;
+        display: none;
+    }
+}
+
+.nav-li-item .btn-style{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #000;
+    background-color: inherit;
+    font: inherit;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.li-menu-content{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    max-width: 90%;
+    left: 5%;
+    right: 5%;
+    top: 35px;
+    /* padding-top: 25px; */
+}
+.li-menu-content-on-hover{
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    max-width: 90%;
+    left: 5%;
+    right: 5%;
+    top: 35px;
+    padding-top: 25px;
+}
+.li-menu-content-style{
+    border-radius: 20px;
+    visibility: inherit;
+    background-color: #fff;
+    border: 1px solid #e0dedc;
+   
+    padding: 15px;
+}
+
+.li-menu-content-heading{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.navbar-hiden-btn{
+    display: none;
+
+}
+
+@media only screen and (max-width: 1080px){
+    .navbar-hiden-btn {
+        display: block;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+}
+.nav-hidden-btn-style{
+    display: block;
+    width: 20px;
+    height: 1px;
+    margin: 5px auto;
+    transition: all .3s ease-in-out;
+    background-color: #222;
+}
+.mobile-view-navbar {
+    display: none;
+}
+@media only screen and (max-width: 1080px){
+    .mobile-view-navbar{
+        display: block;
+    }
+}
+
+.mobile-view-nav-btn{
+    all:unset;
+    display: flex;
+}
+.mobile-view-btn-style{
+    all: unset;
+    font-family: inherit;
+    background-color: transparent;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0px 20px;
+    flex: 1 1 0%;
+}
+
+.nav-cross-arrow{
+    display: block;
+    width: 20px;
+    height: 1px;
+    margin: 5px auto;
+    transition: all .3s ease-in-out;
+    background-color: #222;
+}
+@media only screen and (max-width: 1080px){
+    .navbar-hiden-btn.nav-menu-block.nav-cross-arrow:nth-child(2) {
+        transform: translateY(-3px) rotate(-45deg);
+    }
+}
+
+.cross-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .cross-icon::before,
+  .cross-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .cross-icon::before {
+    transform: rotate(45deg);
+  }
+  
+  .cross-icon::after {
+    transform: rotate(-45deg);
+  }
+  
